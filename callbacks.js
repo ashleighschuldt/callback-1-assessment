@@ -27,4 +27,4 @@ const stringItOut = (arr)=>{
     return Math.sin((Math.log(num1) + Math.tan(num2) * 100))
   }
 
-  //Code here
+  const mathResult = math(complex, 2, 3)
