@@ -8,7 +8,9 @@
 //the array converted into a string using the native 
 //array toString method.
 
-  //Code here
+const stringItOut = (arr)=>{
+  return arr.sort((a, b)=>a<b).toString()
+}
 
 
 //////////////////PROBLEM 2////////////////////
